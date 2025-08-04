@@ -1,0 +1,10 @@
+name: Call Reusable Snyk CICD Scan
+
+on:
+  push:
+    branches:
+      - feature
+
+jobs:
+  call-security-scan:
+    uses: yrneh10/testrun/.github/workflows/nodereusable.yml@main
