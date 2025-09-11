@@ -8,6 +8,6 @@ on:
 #testnow
 jobs:
   call-security-scan:
-    uses: yrneh10/testrun/.github/workflows/nodereusable.yml@main
+    uses: yrneh10/testrun/.github/workflows/snykreusable.yml@main
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
